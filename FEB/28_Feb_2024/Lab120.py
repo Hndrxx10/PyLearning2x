@@ -1,32 +1,5 @@
-# Hybrid Inheritance
+def multiple_return_one():
+    return 99,"pramod",91
 
-# multiple types of inheritance,
-# such as single,
-# multiple, and
-# multilevel inheritance.
+print(multiple_return_one()) # Return will in the Tuple
 
-class A:
-    def methodA(self):
-        return "Method A"
-
-
-class B(A):
-    def methodB(self):
-        return "Method B"
-
-
-class C(A):
-    def methodC(self):
-        return "Method C"
-
-
-class D(B, C):
-    def methodD(self):
-        return "Method D"
-
-
-d = D()
-print(d.methodA())
-print(d.methodB())
-print(d.methodC())
-print(d.methodD())
