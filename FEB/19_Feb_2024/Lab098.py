@@ -14,7 +14,7 @@ class Cal:
 
 object_ref = Cal()
 result = object_ref.sum(3, 4)
-object_ref.div()
-object_ref.sub()
-object_ref.mul()
+object_ref.div(10,5)
+object_ref.sub(10,5)
+object_ref.mul(10,5)
 print(result)
